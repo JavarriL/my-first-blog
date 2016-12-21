@@ -1,3 +1,4 @@
+
 """
 Django settings for mysite project.
 
@@ -19,7 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!SECRET_KEY = 'ou$t%w09y-gu)p+yfsb*(6u@@#tvhza_i(tn654!r_its!l2#w'
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'ou$t%w09y-gu)p+yfsb*(6u@@#tvhza_i(tn654!r_its!l2#w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,7 +41,8 @@ INSTALLED_APPS = [    'django.contrib.admin',
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.security.SecurityMiddleware',    
+    'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
