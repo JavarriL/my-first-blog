@@ -1,3 +1,4 @@
+
 """
 
 Django settings for mysite project.
@@ -62,7 +63,9 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 
+
 INSTALLED_APPS = [    'django.contrib.admin',
+
 
     'django.contrib.auth',
 
@@ -81,6 +84,7 @@ INSTALLED_APPS = [    'django.contrib.admin',
 
 
 MIDDLEWARE = [
+
 
     'django.middleware.security.SecurityMiddleware',    
 
@@ -212,7 +216,9 @@ LANGUAGE_CODE = 'en-us'
 
 
 
+
 TIME_ZONE = 'America/Detroit'
+
 
 
 
@@ -238,7 +244,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
  
 
  
+
