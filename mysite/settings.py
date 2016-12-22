@@ -61,14 +61,12 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 # Application definition
 
-<<<<<<< HEAD
+
 
 
 INSTALLED_APPS = [    'django.contrib.admin',
 
-=======
-INSTALLED_APPS = [    'django.contrib.admin',
->>>>>>> 7a64502fda8c48fcffa2ad0e332d30101cb5c1d3
+
     'django.contrib.auth',
 
     'django.contrib.contenttypes',
@@ -86,13 +84,10 @@ INSTALLED_APPS = [    'django.contrib.admin',
 
 
 MIDDLEWARE = [
-<<<<<<< HEAD
+
 
     'django.middleware.security.SecurityMiddleware',    
 
-=======
-    'django.middleware.security.SecurityMiddleware',    
->>>>>>> 7a64502fda8c48fcffa2ad0e332d30101cb5c1d3
     'django.contrib.sessions.middleware.SessionMiddleware',
 
     'django.middleware.common.CommonMiddleware',
@@ -219,15 +214,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-<<<<<<< HEAD
+
 
 
 TIME_ZONE = 'America/Detroit'
 
 
-=======
-TIME_ZONE = 'America/Detroit'
->>>>>>> 7a64502fda8c48fcffa2ad0e332d30101cb5c1d3
+
 
 USE_I18N = True
 
@@ -250,14 +243,10 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
  
 
  
-=======
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
->>>>>>> 7a64502fda8c48fcffa2ad0e332d30101cb5c1d3
-
 
